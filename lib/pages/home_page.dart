@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({Key? key, required this.title}) : super(key: key);
+  final String title;
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: SizedBox(
+          height: 50,
+          child: ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed('/example/path');
+            },
+            child: Text(
+              'Go to example',
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    color: Colors.white,
+                  ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
