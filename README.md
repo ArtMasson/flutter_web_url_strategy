@@ -30,5 +30,5 @@ Esse repositório contém uma demo de como utilizar o pacote ``url_strategy`` pa
 <a name="mediumptbr"/>
 
 ## (PT-BR) Medium story
-Se quiser saber sobre como o pacote funciona ou ter mais detalhes para usar a demo, basta acessar o artigo do medium que explico sobre o assunto: 
+Se quiser saber sobre como o pacote funciona ou ter mais detalhes para usar a demo, basta acessar o artigo do medium que explico sobre o assunto: [Flutter Web - Como tirar o # da url](https://medium.com/@artmasson/flutter-web-como-tirar-o-da-url-b777acdaa7b6)
 
